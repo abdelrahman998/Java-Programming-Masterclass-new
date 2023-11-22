@@ -1,17 +1,11 @@
-package dev.games;
-
-import dev.games.poker.PokerGame;
-
 import java.util.Stack;
 
-public class GameController {
+public class Main {
 
     public static void main(String[] args) {
 
-        PokerGame fiveCardDraw = new PokerGame(4, 5);
-        fiveCardDraw.startPlay();
-
     }
+
 
     public int minSwaps(String s) {
         Stack<Character> stack = new Stack<>();
@@ -48,19 +42,5 @@ public class GameController {
         }
         return ans;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
